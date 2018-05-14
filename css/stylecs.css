@@ -1,0 +1,290 @@
+body{
+
+    font-family: 'PT Sans', sans-serif;
+}
+#navbarResponsive a:hover {
+    color: #DCDCDC;
+}
+
+
+.contact-content {
+    padding: 30px 0 0 0;
+}
+
+.contact-content .row{
+    padding: 10px;
+}
+
+.form-block {
+    padding: 30px;
+    background-color: rgb(240, 240, 240);
+}
+
+.form-element {
+    padding: 5px;
+}
+
+.form-image-block {
+    height: 415px;
+    width: auto;
+    background-position: center top;
+    background-size: cover;
+    background-image: url('../images/com.jpg');
+}
+
+.link-footer {
+    text-align: center;
+}
+
+.link-footer ul {
+    padding: 0;
+}
+
+.link-footer ul li {
+    padding: 5px;
+    list-style-type: none;
+}
+.link-footer ul li a {
+    color: #858583;
+    text-transform: capitalize;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.shop-first-row {
+    padding: 20px 0 0 0;
+}
+
+.shop-first-row .col-md-4, .col-md-8 {
+    padding: 0;
+}
+
+.shop-text-block {
+    background-color: rgb(240, 240, 240);
+    height: 400px;
+}
+
+.shop-text-block h1 {
+    padding: 35%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: capitalize;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.shop-product-block a {
+    color: #000;
+    text-decoration: none;
+}
+
+.shop-image-block {
+    height: 400px;
+    background-image: url("../images/shoes.jpg");
+}
+
+.shop-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-row {
+    padding-bottom: 20px;
+}
+
+.shop-product-image {
+    height: auto;
+    width: 100%;
+}
+
+.shop-product-image:hover{
+    
+}
+
+.price-sum {
+    padding-left: 5px;
+}
+
+.shop-category-filter {
+    text-align: left;
+}
+
+.shop-category-filter ul{
+    padding: 0;
+}
+
+.shop-category-filter ul li{
+    color: #666666;
+    list-style-type: none;
+}
+
+.shop-category-filter ul li a{
+    color: #666666;
+}
+
+.shop-price-filter {
+    text-align: left;
+}
+
+.shop-category-filter ul li a:active{
+    color: #000;
+    font-weight: bold;
+}
+
+.shop-size-filter {
+    text-align: left;
+}
+
+.shop-size-filter {
+    text-align: left;
+}
+
+.shop-size-filter {
+    text-align: left;
+}
+
+.product-page-row {
+    padding: 20px 10% 0 10%;
+}
+
+.product-image-block {
+    
+    text-align: center;
+}
+
+.product-image-block img {
+    border: solid 1px #666666;
+    background-color: #ebebeb; 
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    font-weight: bold;
+}
+
+.product-add-cart button{
+    width: 100%;
+}
+
+.product-image-block-text {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.product-add-cart {
+    padding: 0 0 20px 0;
+}
+
+.accordion button {
+    color: #000;
+}
+
+.side {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 20px; /* Some padding */
+}
+
+/* Main column */
+.main { 
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 20px; /* Some padding */
+}
+@media screen and (max-width: 700px) {
+    .row { 
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.footer {
+    padding: 20px; /* Some padding */
+    background: #F8F8FF; /* Grey background */
+}
+#text1{
+    margin-top: 10%;
+
+}
+h1{
+    font-size: 40px;
+}
+.Apparel{
+   margin-right: 0.6%;
+    margin-left: 1%;
+}
+.Follow{
+    margin-right: 0.6%;
+}
+.bgimg-1{
+    color: #fff;
+    padding: 15%;
+    background: url("../images/shoes.jpg") ;
+    background-position: center;
+    margin-right: 0.6%;
+    margin-left: 1%;
+}
+.bgimg-2{
+    padding: 15%;
+    color: #fff;
+    background: url("../images/colloection.jpg")  ;
+    background-position: center;
+    margin-right: 0.6%;
+}
+.bgimg-3{
+   padding: 15%;
+    color: #fff;
+    background: url("../images/com.jpg");
+    background-position: center;
+}
+.icons__items a{
+    color: black;
+    font-size: 35px;
+    margin-left: 17px;
+
+}
+.icons__items a:hover{
+    text-decoration: none;
+     color: #666666; 
+
+}
+
+#text2{
+    padding-top: 1%;
+    
+}
+#text2 h1{
+    color: #fff;
+    
+}
+#text2 h1:hover{
+   color: #fff; 
+   list-style-type: none;
+   text-decoration: none;
+
+}
+#text3{
+    padding-top: 1%;
+    padding-left: 30%;
+}
+
+.login-icon{
+    margin-top: 20px;
+}
