@@ -12,13 +12,14 @@
 */
 
 Route::get('/', 'HomeController@index')->name('index');
-Route::get('/post', 'PostsController@index');
+
+
+
+Route::get('/about', 'HomeController@about')->name('about');
+Route::get('/product/{id}', 'HomeController@product')->name('product');
+Route::get('/shop', 'HomeController@shop')->name('shop');
+Route::get('/contact', 'HomeController@contact')->name('contact');
 
 Auth::routes();
 
-Route::get('/about', 'HomeController@about')->name('about');
-Route::get('/product', 'HomeController@product')->name('product');
-Route::get('/shop', 'HomeController@shop')->name('shop');
-Route::get('/contact', 'HomeController@contact')->name('contact');
-Route::get('/login', 'HomeController@login')->name('login');
-Route::get('/registration', 'HomeController@registration')->name('registration');
+Route::get('/home', 'HomeController@index')->name('home');
