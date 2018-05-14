@@ -1,22 +1,19 @@
 @extends('layouts.app')
 @section('content')
 <div class="container-fluid">
-
         <div class="row product-page-row">
             <div class="col-md-6">
                 <div class="product-image-block">
                     <img src="./images/sample-product2.jpg" alt="">
                     <div class="product-image-block-text">
-                        <p>
-                            I'm a product description. I'm a great place to add more details about your product such as sizing, material, care instructions and cleaning instructions.
-                        </p>
+                        <p>{{$spec}}</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <h5>Some product</h5>
-                <h6 class="text-muted">Articul: 005</h6>
-                <p>25000<span class="price-sum">SUM</span></p>
+                <h5>{{$name}}</h5>
+                <h6 class="text-muted">Product ID: {{$id}}</h6>
+                <p>{{$price}}<span class="price-sum">SUM</span></p>
 
                 <div class="form-group">
                         <label for="exampleFormControlSelect1" class="text-muted">Size</label>
@@ -49,7 +46,7 @@
                       
                           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body">
-                                    I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions. This is also a great space to write what makes this product special and how your customers can benefit from this item.
+                                {{$descr}}
                             </div>
                           </div>
                         </div>
@@ -83,4 +80,4 @@
             </div>
         </div>
     </div>
-@stop
+@endsection

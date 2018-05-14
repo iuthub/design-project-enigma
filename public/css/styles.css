@@ -1,8 +1,10 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
+
 #navbarResponsive a:hover {
     color: #DCDCDC;
+    text-align: center;
 }
 
 .contact-content {
@@ -199,6 +201,7 @@ body{
     background-color: white; /* White background color */
     padding: 20px; /* Some padding */
 }
+
 @media screen and (max-width: 700px) {
     .row { 
         flex-direction: column;
@@ -217,20 +220,24 @@ body{
     padding: 20px; /* Some padding */
     background: #F8F8FF; /* Grey background */
 }
+
 #text1{
     margin-top: 10%;
-
 }
+
 h1{
     font-size: 40px;
 }
+
 .Apparel{
    margin-right: 0.6%;
     margin-left: 1%;
 }
+
 .Follow{
     margin-right: 0.6%;
 }
+
 .bgimg-1{
     color: #fff;
     padding: 15%;
@@ -239,6 +246,7 @@ h1{
     margin-right: 0.6%;
     margin-left: 1%;
 }
+
 .bgimg-2{
     padding: 15%;
     color: #fff;
@@ -246,18 +254,21 @@ h1{
     background-position: center;
     margin-right: 0.6%;
 }
+
 .bgimg-3{
    padding: 15%;
     color: #fff;
     background: url('/images/com.jpg');
     background-position: center;
 }
+
 .icons__items a{
     color: black;
     font-size: 35px;
     margin-left: 17px;
 
 }
+
 .icons__items a:hover{
     text-decoration: none;
      color: #666666; 
@@ -268,16 +279,18 @@ h1{
     padding-top: 1%;
     
 }
+
 #text2 h1{
     color: #fff;
     
 }
+
 #text2 h1:hover{
    color: #fff; 
    list-style-type: none;
    text-decoration: none;
-
 }
+
 #text3{
     padding-top: 1%;
     padding-left: 30%;
